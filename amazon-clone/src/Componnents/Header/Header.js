@@ -3,6 +3,7 @@ import { FaSearch } from "react-icons/fa";
 import { CiShoppingCart } from "react-icons/ci";
 import { FaLocationDot } from "react-icons/fa6"
 import classes from "./Header.module.css"
+import LowerHeader from './LowerHeader';
 function Header() {
     return (
         <>
@@ -20,9 +21,9 @@ function Header() {
                         <FaLocationDot />
                         </span>
                         <div>
-     <p>Deliver To</p>
-     <span>Ethiopia</span>
- </div>
+                   <p>Deliver To</p>
+                   <span>Ethiopia</span>
+                     </div>
                         </div>
                 
                 <div className={classes.search}>
@@ -66,6 +67,7 @@ function Header() {
                     </div>
                     </div>
             </section>
+            <LowerHeader/>
       </>
   )
 }
