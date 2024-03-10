@@ -2,6 +2,7 @@ import React from 'react'
 import { Carousel } from "react-responsive-carousel"
 import { img } from "./Data"
 import "react-responsive-carousel/lib/styles/carousel.min.css";
+import classes from "./Carasoul.module.css"
 function CarouselEffect() {
   return (
     <div>
@@ -9,7 +10,7 @@ function CarouselEffect() {
         autoPlay={true}
         infiniteLoop={true}
         showIndicators={false}
-        showThumps={true}
+        showThumps={false}
       
       
       >
@@ -20,6 +21,7 @@ function CarouselEffect() {
         }
 
       </Carousel>
+      <div className={classes}></div>
     </div>
   )
 }
