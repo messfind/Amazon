@@ -8,7 +8,7 @@ function CtagoryCard({data}) {
           <h2>{data.title}</h2>
               </span>
               <img src={data.imgLink} alt="" />
-              <p>Shop Now</p>
+              <p>Shop now</p>
       </a>
     </div>
   )
