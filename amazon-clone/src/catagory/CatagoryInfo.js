@@ -17,6 +17,6 @@ export const CatagoryInfos = [
     {
         title: "Men's clothing",
         name: "men's clothing",
-        imgLink:"https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg"
+        imgLink:"https://fakestoreapi.com/img/71YXzeOuslL._AC_UY879_.jpg"
     }
 ]
