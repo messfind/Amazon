@@ -1,10 +1,13 @@
 import React from 'react'
+import LayOut from '../../Componnents/LayOut/LayOut'
 
 function Pyment() {
   return (
-    <div>
-      
-    </div>
+    <LayOut>
+ <h1>Payment</h1>
+    </LayOut>
+     
+    
   )
 }
 
