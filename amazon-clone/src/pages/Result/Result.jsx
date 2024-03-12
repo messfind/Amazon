@@ -1,10 +1,13 @@
 import React from 'react'
+import LayOut from '../../Componnents/LayOut/LayOut'
 
 function Result() {
   return (
-    <div>
-      
-    </div>
+   <LayOut>
+      <h1>Result</h1>
+   </LayOut>
+     
+    
   )
 }
 
