@@ -4,6 +4,7 @@ import { CiShoppingCart } from "react-icons/ci";
 import { FaLocationDot } from "react-icons/fa6"
 import classes from "./Header.module.css"
 import LowerHeader from './LowerHeader';
+import {Link} from "react-router-dom"
 function Header() {
     return (
         <>
@@ -11,9 +12,9 @@ function Header() {
                 <div className={classes.header_container}>
                     {/* logo */}
                     <div className={classes.logo_container}>
-                    <a href=''>
+                    <Link to=''>
                         <img src='https://pngimg.com/uploads/amazon/small/amazon_PNG11.png' alt='amazon log'/>
-                        </a>
+                        </Link>
                     </div>
                     <div className={classes.delivery}>
                      {/* delivery */}
@@ -38,31 +39,31 @@ function Header() {
                 <div>
                    
                     <div className={classes.order_container}>
-                        <a href='' className={classes.language}>
+                        <Link to='' className={classes.language}>
                         <img src='https://cdn.britannica.com/33/4833-004-828A9A84/Flag-United-States-of-America.jpg' alt='' />
                         <select name='' id=''>
                             <option value=''>En</option>
                             </select>
-                            </a>
+                            </Link>
                     
                    
                     {/* three components */}
-                    <a href=''>
+                    <Link to='/auth'>
                         <div>
                             <p>Sign in</p>
                             <span>Account & list</span>
                         </div>
-                    </a>
+                    </Link>
                     {/* orders  */}
-                    <a href=''>
+                    <Link to='/orders'>
                 <p>returns</p>
                  <span>Orders</span>
-                    </a>
+                    </Link>
                      {/* cart  */}
-                    <a href='' className={classes.cart}>
+                    <Link to='/cart' className={classes.cart}>
                         <CiShoppingCart size={35} />
                   <span>0</span>
-                            </a>
+                            </Link>
                             </div>
                     </div>
                     </div>
