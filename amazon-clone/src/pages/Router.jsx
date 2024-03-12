@@ -13,9 +13,8 @@ function Routing() {
                 <Route path="/auth" element={<SignUp />} />
                 <Route path="/payments" element={<Pyment />} />
                 <Route path="/orders" element={<Order />} />
-                <Route path="/cart" element={<Cart/>} />
-                    
-
+                <Route path="/cart" element={<Cart />} /> 
+                
             </Routes>
       </Router>
   )
