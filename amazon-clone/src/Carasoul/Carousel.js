@@ -3,9 +3,9 @@ import { Carousel } from "react-responsive-carousel"
 import { img } from "./Data"
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import classes from "./Carasoul.module.css"
-function CarouselEffect(i) {
+function CarouselEffect(id) {
   return (
-    <div key={i}>
+    <div key={id}>
       <Carousel
         autoPlay={true}
         infiniteLoop={true}
