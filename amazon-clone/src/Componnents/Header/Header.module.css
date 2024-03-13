@@ -175,3 +175,17 @@ gap: 10px;
           display: none;
         } 
 }
+
+.product{
+    display: flex;
+}
+.product img{
+   
+    width: 250px;
+    height: auto;
+padding-left: 60px;
+padding-top: 100px;
+
+
+justify-content: center;
+}
